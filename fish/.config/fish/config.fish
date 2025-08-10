@@ -63,6 +63,7 @@ set -gx DOCKER_BUILDKIT 1
 # Paths adicionais
 set -gx PATH $PATH \
     $HOME/.config/composer/vendor/bin \
+    $HOME/.local/bin \
     /opt/nvim/bin
 
 # Starship
