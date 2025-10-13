@@ -35,6 +35,7 @@ alias phpunit="./vendor/bin/phpunit"
 alias phpstan="./vendor/bin/phpstan"
 alias rector="./vendor/bin/rector"
 alias pint="./vendor/bin/pint"
+alias sail="./vendor/bin/sail"
 alias config.fish="vim ~/.config/fish/config.fish"
 
 # Alias laravel
