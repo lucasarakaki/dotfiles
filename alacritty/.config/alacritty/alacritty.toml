@@ -47,7 +47,7 @@ save_to_clipboard = true
 
 ###### Shell ######
 [terminal.shell]
-program = "/usr/bin/fish"
+program = "/usr/bin/zsh"
 args = ["--login"]
 
 ###### Atalhos do teclado ######
