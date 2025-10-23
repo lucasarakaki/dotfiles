@@ -83,6 +83,11 @@ plugins=(
   eza
 )
 
+# Eza settings
+zstyle ':omz:plugins:eza' 'dirs-first' yes
+zstyle ':omz:plugins:eza' 'icons' yes
+zstyle ':omz:plugins:eza' 'color-scale-mode' fixed
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -116,11 +121,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Starship
 eval "$(starship init zsh)"
-
-# Eza settings
-zstyle ':omz:plugins:eza' 'dirs-first' yes
-zstyle ':omz:plugins:eza' 'icons' yes
-zstyle ':omz:plugins:eza' 'color-scale-mode' fixed
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
